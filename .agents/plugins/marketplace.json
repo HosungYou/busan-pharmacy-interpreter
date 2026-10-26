@@ -1,0 +1,5 @@
+{
+  "name": "busan-pharmacy",
+  "interface": {"displayName": "부산 약사 세미나"},
+  "plugins": [{"name": "pharmacy-interpreter", "source": {"source": "local", "path": "./plugins/pharmacy-interpreter"}, "policy": {"installation": "AVAILABLE", "authentication": "ON_INSTALL"}, "category": "Productivity"}]
+}
