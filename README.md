@@ -10,11 +10,17 @@
 
 ## 설치 준비
 
+**[설치 ZIP 바로 받기](https://github.com/HosungYou/busan-pharmacy-interpreter/releases/download/v0.4.0-rc.1/pharmacy-install.zip)**
+
+**[PDF 가이드](https://github.com/HosungYou/busan-pharmacy-interpreter/releases/download/v0.4.0-rc.1/pharmacy-guide-ko-v3.pdf)** · **[HWPX 정본](https://github.com/HosungYou/busan-pharmacy-interpreter/releases/download/v0.4.0-rc.1/pharmacy-guide-ko-v3.hwpx)** · **[Word 파생본](https://github.com/HosungYou/busan-pharmacy-interpreter/releases/download/v0.4.0-rc.1/pharmacy-guide-ko-v3.docx)**
+
 쉬운 설치는 제공된 `pharmacy-install.zip`을 그대로 업로드하는 방법입니다. 압축을 풀지 마세요. 한글 화면에서 **플러그인 → 추가 → 플러그인 압축 파일 업로드 → 파일 선택 → 플러그인 추가 → 플러그인 설치** 순서로 진행합니다. 이 경로로 제작자 계정의 Aside 브라우저에서 업로드와 설치 완료를 확인했습니다. Windows 앱과 실제 음성 왕복은 별도 확인이 필요합니다.
 
 Git 저장소는 배포 파일과 소스를 관리하는 곳입니다. 저장소 링크를 열었다고 ChatGPT에 자동 설치되는 것은 아닙니다. Releases에서 ZIP을 내려받아 위 순서로 설치하세요. 비공개 저장소는 초대된 GitHub 계정만 열 수 있습니다. GitHub 계정이 없는 참석자에게는 제작자가 같은 ZIP을 전달할 수 있습니다.
 
 Python, Node, Git, API 키, 별도 서버는 이 패키지의 실행 의존성이 아닙니다. Git 명령어는 약사님께 요구하지 않습니다. 앱 설치는 공식 공급자의 다운로드 경로를 사용하세요. 이 저장소의 marketplace는 Codex 프로젝트에서 사용할 수 있는 대체 배포 구성입니다.
+
+데스크톱 앱에 **마켓플레이스 추가** 메뉴가 있으면 출처에 `https://github.com/HosungYou/busan-pharmacy-interpreter`, Git ref에 `main`을 입력하고 Sparse 경로를 비워 목록을 추가할 수도 있습니다. 새 목록에서 약국 한영 통역을 찾아 설치합니다. 이 대체 경로의 Windows 설치는 아직 미검증입니다.
 
 ## 이전 버전과 달라진 점
 
