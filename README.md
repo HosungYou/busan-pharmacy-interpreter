@@ -5,9 +5,9 @@
 ## 다운로드
 
 - [설치 ZIP](https://github.com/HosungYou/busan-pharmacy-interpreter/releases/download/v0.4.0-rc.3/pharmacy-install.zip)
-- [PDF 가이드](https://github.com/HosungYou/busan-pharmacy-interpreter/releases/download/v0.4.0-rc.3/pharmacy-guide-ko-v6.pdf)
-- [HWPX 정본](https://github.com/HosungYou/busan-pharmacy-interpreter/releases/download/v0.4.0-rc.3/pharmacy-guide-ko-v6.hwpx)
-- [편집용 Word](https://github.com/HosungYou/busan-pharmacy-interpreter/releases/download/v0.4.0-rc.3/pharmacy-guide-ko-v6.docx)
+- [PDF 가이드](https://github.com/HosungYou/busan-pharmacy-interpreter/releases/download/v0.4.0-rc.3/pharmacy-guide-ko-v7.pdf)
+- [HWPX 정본](https://github.com/HosungYou/busan-pharmacy-interpreter/releases/download/v0.4.0-rc.3/pharmacy-guide-ko-v7.hwpx)
+- [편집용 Word](https://github.com/HosungYou/busan-pharmacy-interpreter/releases/download/v0.4.0-rc.3/pharmacy-guide-ko-v7.docx)
 - [일반 Chat용 시작문](https://github.com/HosungYou/busan-pharmacy-interpreter/releases/download/v0.4.0-rc.3/voice-start-ko-en.txt)
 
 공개 파일이므로 GitHub 계정이나 초대가 필요 없습니다. 설치 ZIP은 압축을 풀지 마세요.
