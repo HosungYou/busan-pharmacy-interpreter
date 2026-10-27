@@ -1,43 +1,44 @@
-# 약국 한영 통역
+# 약국 한영 음성 통역 실습
 
-부산 세미나 참석 약사님을 위한 배포 후보 0.4.0-rc.1입니다. Windows 설치와 실제 음성 테스트가 끝나기 전에는 검증 완료 배포본으로 전달하지 마세요.
+부산 세미나 참석 약사님을 위한 시작문 준비 플러그인 0.4.0-rc.3과 쉬운 설명서입니다.
 
-**실제 앱 재시험 결과 저지연 통역 기준을 충족하지 못했습니다.** 2026년 10월 26일 가상 문장 시험에서 2분 이상 응답 지연과 불필요한 대기 발화가 재현됐습니다. 경량 후보도 음성 모드의 텍스트 입력에서 “Let me check”를 덧붙였습니다. 현장용 통역으로 배포하지 마세요. 음성 AI가 번역만 직접 처리하는 경로를 먼저 검증해야 합니다.
+## 다운로드
 
-## 무엇을 하나요
+- [설치 ZIP](https://github.com/HosungYou/busan-pharmacy-interpreter/releases/download/v0.4.0-rc.3/pharmacy-install.zip)
+- [PDF 가이드](https://github.com/HosungYou/busan-pharmacy-interpreter/releases/download/v0.4.0-rc.3/pharmacy-guide-ko-v5.pdf)
+- [HWPX 정본](https://github.com/HosungYou/busan-pharmacy-interpreter/releases/download/v0.4.0-rc.3/pharmacy-guide-ko-v5.hwpx)
+- [편집용 Word](https://github.com/HosungYou/busan-pharmacy-interpreter/releases/download/v0.4.0-rc.3/pharmacy-guide-ko-v5.docx)
+- [일반 Chat용 시작문](https://github.com/HosungYou/busan-pharmacy-interpreter/releases/download/v0.4.0-rc.3/voice-start-ko-en.txt)
 
-손님이 영어로 말합니다 → 한국어 통역을 듣습니다 → 약사가 한국어로 답합니다 → 영어 통역을 듣습니다.
+공개 파일이므로 GitHub 계정이나 초대가 필요 없습니다. 설치 ZIP은 압축을 풀지 마세요.
 
-노트북 한 대로 한 문장씩 번갈아 말합니다. 시작 문장은 **약국 통역 시작해 줘**입니다. 잘 안 들린 말은 말한 사람의 언어로 다시 묻습니다.
+## 시작하기
 
-## 설치 준비
+1. ChatGPT의 플러그인 → 추가 → 플러그인 압축 파일 업로드에서 ZIP을 고릅니다.
+2. 플러그인 추가 → 플러그인 설치를 누릅니다.
+3. 채팅에서 사용해 보기를 누르고 “약국 통역 시작해 줘”라고 요청합니다.
+4. 받은 시작문을 새 일반 Chat에 한 번 복사해 보냅니다. 이 채팅에는 플러그인을 다시 선택하지 않습니다.
+5. Ready가 나오면 파형 모양의 **실시간 음성 대화** 버튼을 누릅니다. 옆의 마이크 모양은 받아쓰기입니다.
+6. 손님이 영어로 말하면 한국어 음성으로 듣고, 약사가 한국어로 답하면 영어 음성으로 전달합니다. 한 문장씩 번갈아 말하고 통역이 끝날 때까지 기다립니다.
 
-**[설치 ZIP 바로 받기](https://github.com/HosungYou/busan-pharmacy-interpreter/releases/download/v0.4.0-rc.1/pharmacy-install.zip)**
+복사·전송은 준비 단계에서만 합니다. 실제 통역 중에는 전송 버튼을 누르지 않습니다. Python·Git·명령어·API 키·별도 서버는 필요하지 않습니다.
 
-**[PDF 가이드](https://github.com/HosungYou/busan-pharmacy-interpreter/releases/download/v0.4.0-rc.1/pharmacy-guide-ko-v3.pdf)** · **[HWPX 정본](https://github.com/HosungYou/busan-pharmacy-interpreter/releases/download/v0.4.0-rc.1/pharmacy-guide-ko-v3.hwpx)** · **[Word 파생본](https://github.com/HosungYou/busan-pharmacy-interpreter/releases/download/v0.4.0-rc.1/pharmacy-guide-ko-v3.docx)**
+## 확인한 범위
 
-쉬운 설치는 제공된 `pharmacy-install.zip`을 그대로 업로드하는 방법입니다. 압축을 풀지 마세요. 한글 화면에서 **플러그인 → 추가 → 플러그인 압축 파일 업로드 → 파일 선택 → 플러그인 추가 → 플러그인 설치** 순서로 진행합니다. 이 경로로 제작자 계정의 Aside 브라우저에서 업로드와 설치 완료를 확인했습니다. Windows 앱과 실제 음성 왕복은 별도 확인이 필요합니다.
+설명서의 대화 캡처는 가상 문장을 한 줄씩 텍스트로 재현한 연습입니다. 실제 번역 음성 출력·연속 음성 성공·첫 소리 지연을 검증했다는 뜻은 아닙니다. Windows 앱 설치도 미검증입니다. 실제 2인 시험을 문서 배포 조건으로 요구하지 않습니다.
 
-Git 저장소는 배포 파일과 소스를 관리하는 곳입니다. 저장소 링크를 열었다고 ChatGPT에 자동 설치되는 것은 아닙니다. 위의 ZIP 바로 받기 링크를 눌러 저장한 뒤 설치하세요. 공개 저장소이므로 다운로드에 GitHub 계정이나 초대가 필요하지 않습니다.
+rc.1·rc.2의 Work 통역에서는 2분 이상 지연과 대기 발화가 재현됐습니다. 이 버전은 플러그인을 시작문 준비에만 쓰고 실제 통역은 일반 Chat의 실시간 음성에서 수행하도록 안내합니다. 1~2초 시작·최대 3초는 목표이며 보장하지 않습니다.
 
-Python, Node, Git, API 키, 별도 서버는 이 패키지의 실행 의존성이 아닙니다. Git 명령어는 약사님께 요구하지 않습니다. 앱 설치는 공식 공급자의 다운로드 경로를 사용하세요. 이 저장소의 marketplace는 Codex 프로젝트에서 사용할 수 있는 대체 배포 구성입니다.
+## 다른 환경과 다음 실습
 
-데스크톱 앱에 **마켓플레이스 추가** 메뉴가 있으면 출처에 `https://github.com/HosungYou/busan-pharmacy-interpreter`, Git ref에 `main`을 입력하고 Sparse 경로를 비워 목록을 추가할 수도 있습니다. 새 목록에서 약국 한영 통역을 찾아 설치합니다. 이 대체 경로의 Windows 설치는 아직 미검증입니다.
+마켓플레이스 추가 메뉴가 있는 데스크톱 앱에서는 출처에 이 저장소 주소, Git ref에 main을 입력하고 Sparse 경로는 비웁니다. 이번 플러그인의 Windows 마켓플레이스 설치는 별도 확인이 필요합니다.
 
-## 이전 버전과 달라진 점
-
-기존 0.3.1에서 역할과 번역 방향을 지키는 규칙을 가져왔습니다. 첫 실습에서 사용하지 않는 MCP 서버와 식약처 조회를 제외했습니다. 별도 대화 파일을 쓰는 코드도 포함하지 않았습니다. 기존 설치나 기록은 변경하지 않았습니다. 식약처 조회는 별도 실습에서 인증과 실제 조회를 확인한 뒤 추가합니다.
+베트남어 변경은 직접 만들기 실습의 확장 예제이며 실제 음성 시험이 필요합니다. 식약처 제품 조회는 별도 실습에서 연결합니다. 제품 정보로 약국 재고를 추측하지 않습니다.
 
 ## 개인정보와 문의
 
-플러그인은 별도 파일 저장을 하지 않습니다. 앱 채팅 기록은 남을 수 있습니다. 실습에는 가상 사례만 사용하세요.
+플러그인은 별도 대화 파일을 자동 저장하지 않습니다. 앱 자체의 채팅 기록은 남을 수 있습니다.
 
 문의: hs.you@enactionlabs.com. 환자 대화·이름·연락처·건강 정보는 보내지 마세요. 개인정보를 가린 오류 부분만 보내 주세요.
 
-## 제작자 확인 사항
-
-2026년 10월 26일 Aside에서 한글 UI, 업로드·설치, 시작 문장, 텍스트 한영 왕복, 음성 화면 진입·종료, 삭제 메뉴 위치를 확인했습니다. 음성 모드에 입력한 가상 영어 문장은 한국어로 통역됐지만 전사에 원문에 없는 `One moment`가 붙었습니다. 실제 마이크 인식과 소리의 정확성, Windows 설치, 되묻기는 확인하지 않았습니다. 현재는 시험 버전이며 현장용 검증 완료판이 아닙니다.
-
-Windows 새 계정에서 설치, 플러그인 선택, 음성 시작, 한영 왕복 통역, 되묻기를 확인해야 합니다. Mac 공통 UI 캡처는 Windows 실행 증거로 사용하지 않습니다. 다른 언어는 변경 후 해당 언어 사용자와 실제 음성 테스트가 필요합니다.
-
-형식 근거: https://developers.openai.com/plugins/build/plugins
+[공식 플러그인 형식 안내](https://developers.openai.com/plugins/build/plugins)

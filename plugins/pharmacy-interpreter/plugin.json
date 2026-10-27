@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "pharmacy-interpreter",
-  "version": "0.4.0-rc.1",
-  "description": "약사와 영어 손님 사이의 순차 통역 연습",
-  "extensions": {"com.openai": {"interface": {"displayName": "약국 한영 통역", "shortDescription": "한국어 약사와 영어 손님의 말을 번갈아 통역합니다", "longDescription": "노트북 한 대로 한 문장씩 통역합니다. 의약품 조회는 포함하지 않습니다.", "developerName": "Hosung", "category": "Productivity", "defaultPrompt": ["약국 통역 시작해 줘"]}}}
+  "version": "0.4.0-rc.3",
+  "description": "일반 Chat 음성에서 한영 순차 통역을 시작하는 규칙 준비",
+  "extensions": {"com.openai": {"interface": {"displayName": "약국 한영 통역", "shortDescription": "일반 Chat 음성 통역의 시작문을 준비합니다", "longDescription": "플러그인에서 시작문을 받은 뒤 일반 Chat 음성에서 한 문장씩 통역합니다. 의약품 조회와 별도 대화 파일 저장은 포함하지 않습니다.", "developerName": "Hosung", "category": "Productivity", "defaultPrompt": ["약국 통역 시작해 줘"]}}}
 }
