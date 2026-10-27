@@ -5,12 +5,16 @@
 ## 다운로드
 
 - [설치 ZIP](https://github.com/HosungYou/busan-pharmacy-interpreter/releases/download/v0.4.0-rc.3/pharmacy-install.zip)
-- [PDF 가이드](https://github.com/HosungYou/busan-pharmacy-interpreter/releases/download/v0.4.0-rc.3/pharmacy-guide-ko-v5.pdf)
-- [HWPX 정본](https://github.com/HosungYou/busan-pharmacy-interpreter/releases/download/v0.4.0-rc.3/pharmacy-guide-ko-v5.hwpx)
-- [편집용 Word](https://github.com/HosungYou/busan-pharmacy-interpreter/releases/download/v0.4.0-rc.3/pharmacy-guide-ko-v5.docx)
+- [PDF 가이드](https://github.com/HosungYou/busan-pharmacy-interpreter/releases/download/v0.4.0-rc.3/pharmacy-guide-ko-v6.pdf)
+- [HWPX 정본](https://github.com/HosungYou/busan-pharmacy-interpreter/releases/download/v0.4.0-rc.3/pharmacy-guide-ko-v6.hwpx)
+- [편집용 Word](https://github.com/HosungYou/busan-pharmacy-interpreter/releases/download/v0.4.0-rc.3/pharmacy-guide-ko-v6.docx)
 - [일반 Chat용 시작문](https://github.com/HosungYou/busan-pharmacy-interpreter/releases/download/v0.4.0-rc.3/voice-start-ko-en.txt)
 
 공개 파일이므로 GitHub 계정이나 초대가 필요 없습니다. 설치 ZIP은 압축을 풀지 마세요.
+
+## 사용 장소와 설치 메뉴
+
+실제 통역은 일반 ChatGPT의 Chat 음성 대화에서 합니다. Work나 Codex 실행은 필요 없습니다. 플러그인은 시작문 준비 도우미입니다. 설치 메뉴가 없으면 위의 일반 Chat용 시작문을 복사해 새 채팅에 보내세요. ZIP을 대화에 첨부하는 것은 설치가 아닙니다. 메뉴와 음성 기능은 계정·앱·요금제·조직 설정에 따라 다릅니다. Codex는 직접 만들기 추가 실습에서 사용합니다.
 
 ## 시작하기
 
