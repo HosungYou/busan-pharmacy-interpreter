@@ -1,13 +1,13 @@
 # 약국 한영 음성 통역
 
-부산 세미나 참석 약사님용 플러그인 0.4.0-rc.5와 그림 설명서 v8입니다.
+부산 세미나 참석 약사님용 플러그인 0.4.0-rc.5와 그림 설명서 v9입니다.
 
 ## 다운로드
 
 - [설치 ZIP](https://github.com/HosungYou/busan-pharmacy-interpreter/releases/download/v0.4.0-rc.5/pharmacy-install.zip)
-- [그림 설명서 PDF](https://github.com/HosungYou/busan-pharmacy-interpreter/releases/download/v0.4.0-rc.5/pharmacy-guide-ko-v8.pdf)
-- [HWPX 정본](https://github.com/HosungYou/busan-pharmacy-interpreter/releases/download/v0.4.0-rc.5/pharmacy-guide-ko-v8.hwpx)
-- [편집용 Word](https://github.com/HosungYou/busan-pharmacy-interpreter/releases/download/v0.4.0-rc.5/pharmacy-guide-ko-v8.docx)
+- [그림 설명서 PDF](https://github.com/HosungYou/busan-pharmacy-interpreter/releases/download/v0.4.0-rc.5/pharmacy-guide-ko-v9.pdf)
+- [HWPX 정본](https://github.com/HosungYou/busan-pharmacy-interpreter/releases/download/v0.4.0-rc.5/pharmacy-guide-ko-v9.hwpx)
+- [편집용 Word](https://github.com/HosungYou/busan-pharmacy-interpreter/releases/download/v0.4.0-rc.5/pharmacy-guide-ko-v9.docx)
 
 ## 시작하기
 
